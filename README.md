@@ -38,7 +38,7 @@ The **Open-Closed Principle** (OCP) is applied to discount classes. This princip
 The **Liskov Substitution Principle** (LSP) is applied to the `Bird` class hierarchy. Subclasses should be substitutable for their parent classes without altering the correctness of the program.
 
 ### Key Changes:
-- Refined the `Bird` class hierarchy to ensure that derived classes (e.g., `Penguin`, `Sparrow`) can be used interchangeably with the base `Bird` class without causing errors or unexpected behavior.
+- Refined the `Bird` class hierarchy to ensure that derived classes (e.g., `Ostrich`, `Sparrow`) can be used interchangeably with the base `Bird` class without causing errors or unexpected behavior.
 
 ---
 
@@ -48,7 +48,7 @@ The **Liskov Substitution Principle** (LSP) is applied to the `Bird` class hiera
 The **Interface Segregation Principle** (ISP) is applied to the `Bird` class hierarchy. Instead of a single, large interface, it's broken down into smaller, more specific interfaces for relevant subclasses.
 
 ### Key Changes:
-- Split the `Bird` class into multiple interfaces, such as `Flyable` and `Swimmable`, allowing birds to implement only the actions they need.
+- Split the `Bird` class into multiple interfaces, such as `Flyable`, allowing birds to implement only the actions they need.
 
 ---
 
